@@ -4,4 +4,10 @@ def passes(Star_Wars_Movies):
     passing = 1
     while passing <= 6:
         for i in range(0, 5, 1):
-            if Star_Wars_Movies[i] > Star_Wars_Movies[i+1]
+            if Star_Wars_Movies[i] > Star_Wars_Movies[i+1]:
+                S_S = Star_Wars_Movies[i+1]
+                Star_Wars_Movies[i+1] = Star_Wars_Movies[i]
+                Star_Wars_Movies[i] = S_S
+
+passes(Star_Wars_Movies)
+print(Star_Wars_Movies)
