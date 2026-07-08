@@ -8,6 +8,7 @@ def passes(Star_Wars_Movies):
                 S_S = Star_Wars_Movies[i+1]
                 Star_Wars_Movies[i+1] = Star_Wars_Movies[i]
                 Star_Wars_Movies[i] = S_S
+        passing += 1
 
 passes(Star_Wars_Movies)
 print(Star_Wars_Movies)
